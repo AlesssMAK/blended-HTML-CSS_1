@@ -1,0 +1,112 @@
+body {
+    font-family: "Poppins" sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    width: 1150;
+    padding: 0 20 px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------header-------------------------------------*/
+
+.header .container {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    gap: 8px;
+    align-items: center;
+    margin-right: 237px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.nav-list-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.nav-list-item-active {
+    font-weight: 600;
+}
+
+.header-list-btm {
+    display: flex;
+    gap: 21px;
+    margin-left: auto;
+    align-items: center;
+
+}
+
+.header-list-btm-item {}
+
+.header-list-sign-in {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 105px;
+    height: 42px;
+}
+
+.header-list-sign-up {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    width: 113px;
+    height: 42px;
+    background: #02897a;
+}
+
+.hero {}
