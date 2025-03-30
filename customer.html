@@ -5,23 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business promotion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="index.html"><img src="./images/logo.png" alt="logo" />Product</a>
-            <ul>
-                <li><a href="index.html"></a>Product</li>
-                <li><a href="prising.html"></a>Pricing</li>
-                <li><a href="customer.html"></a>Customers</li>
-                <li><a href="resurses.html"></a>Resources</li>
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a class="nav-logo" href="index.html">
+                    <img src="./images/logo.png" alt="logo" />Product</a>
+                <ul class="nav-list">
+                    <li class="nav-list-item nav-list-item-active"><a href="index.html"></a>Product</li>
+                    <li class="nav-list-item"><a href="prising.html"></a>Pricing</li>
+                    <li class="nav-list-item"><a href="customer.html"></a>Customers</li>
+                    <li class="nav-list-item"><a href="resurses.html"></a>Resources</li>
+                </ul>
+            </nav>
+            <ul class="header-list-btm">
+                <li class="header-list-btm-item"><button type="button" class="header-list-sign-in">Sign In</button></li>
+                <li class="header-list-btm-item"><button type="button" class="header-list-sign-up">Sign Up</button></li>
             </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+        </div>
     </header>
     <main>
         <setion>
@@ -50,7 +63,9 @@
             <h2>Why Choose Product?</h2>
             <ul>
                 <li>
-                    <a href=""></a><img src="" alt="">
+                    <a href=""></a>
+                    <img src="./images prising and resurses/mac-1-min.png" alt="Apply for a product" width="500"
+                        height="280">
                     <h3>Special Business</h3>
                     <p>
                         Product helps you see how many
@@ -60,7 +75,9 @@
                     </p>
                 </li>
                 <li>
-                    <a href=""></a><img src="" alt="">
+                    <a href=""></a>
+                    <img src="./images prising and resurses/mac-2-min.png" alt="Pay fully refundable" width="500"
+                        height="280">
                     <h3>Instant Result</h3>
                     <p>
                         Product helps you see how many
@@ -70,7 +87,8 @@
                     </p>
                 </li>
                 <li>
-                    <a href=""></a><img src="" alt="">
+                    <a href=""></a>
+                    <img src="./images prising and resurses/mac-3-min.png" alt="Completion" width="500" height="280>
                     <h3>Fastest way to organize</h3>
                     <p>
                         Product helps you see how many
@@ -119,46 +137,39 @@
                         efficient settlement
                     </p>
                 </li>
-                <button type="button">Get in touch with us</button>
+                <button type=" button">Get in touch with us</button>
             </ul>
-        </section>
-        <scetion>
-            <h2>Join thousand of other who have already received offers</h2>
-            <ul>
-                <li>
-                    <h3>Business</h3>
-                    <p>
-                        Cash Flow
-                    </p>
-                    <p>
-                        Asset Backed
-                    </p>
-                    <p>
-                        Receivables Finance
-                    </p>
-                    <h4>Find the best business product</h4>
-                </li>
-                <li>
-                    <h3>Enterprise</h3>
-                    <p>
-                        Site Acquisition
-                    </p>
-                    <p>
-                        Bridge
-                    </p>
-                    <p>
-                        Development Financing
-                    </p>
-                    <h4>Find the best business product</h4>
-                </li>
-            </ul>
-        </scetion>
+            </section>
+            <section>
+                <h2>Join thousand of other who have
+                    already received offers</h2>
+                <ul>
+                    <li>
+                        <h3>Business</h3>
+                        <span>Cash Flow</span>
+                        <span>Asset Backed</span>
+                        <span>Receivables Finance</span>
+                        <p>
+                            Find the best business product
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Enterprise</h3>
+                        <span>Site Acquisition</span>
+                        <span>Bridge</span>
+                        <span>Development Financing</span>
+                        <p>
+                            Find the best business product
+                        </p>
+                    </li>
+                </ul>
+            </section>
 
-        <section>
-            <h2>Join 100 Compannies who boost their business with Product</h2>
-            <button type="button">Get This</button>
-            <img src="./images/graphics.png" alt="graphics" width="351" height="331">
-        </section>
+            <section>
+                <h2>Join 100 Compannies who boost their business with Product</h2>
+                <button type="button">Get This</button>
+                <img src="./images/graphics.png" alt="graphics" width="351" height="331">
+            </section>
     </main>
 
     <footer>
