@@ -187,10 +187,17 @@ button {
     color: #22343d;
     width: 539px;
     align-items: center;
+    margin: 0 auto;
     margin-bottom: 50px;
+
 }
 
-.product-list {}
+.product-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .product-list-item {}
 
