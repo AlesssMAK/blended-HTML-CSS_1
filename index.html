@@ -59,9 +59,27 @@
             <li class="nav-list-item nav-list-item-active">
               <a href="index.html"></a>Product
             </li>
-            <li class="nav-list-item"><a href="prising.html"></a>Pricing</li>
-            <li class="nav-list-item"><a href="customer.html"></a>Customers</li>
-            <li class="nav-list-item"><a href="resurses.html"></a>Resources</li>
+            <li class="nav-list-item">
+              <a
+                href="prising.html"
+                target="_blank"
+              ></a
+              >Pricing
+            </li>
+            <li class="nav-list-item">
+              <a
+                href="customer.html"
+                target="_blank"
+              ></a
+              >Customers
+            </li>
+            <li class="nav-list-item">
+              <a
+                href="resurses.html"
+                target="_blank"
+              ></a
+              >Resources
+            </li>
           </ul>
         </nav>
         <ul class="header-list-btm">
@@ -109,15 +127,13 @@
                   type="button"
                   class="hero-list-btr-item-watch"
                 >
-                    <svg
-                      class="btn-watch-icon"
-                      width="16"
-                      height="18"
-                    >
-                      <use
-                        href="./images/icons-blended.svg#hero-icon-btn"
-                      ></use></svg
-                  ></>
+                  <svg
+                    class="btn-watch-icon"
+                    width="16"
+                    height="18"
+                  >
+                    <use href="./images/icons-blended.svg#hero-icon-btn"></use>
+                  </svg>
                   Watch the Video
                 </button>
               </li>
@@ -272,19 +288,54 @@
               personality of the person.
             </p>
             <ul>
-              <li class="crm-list-item">
-                <p class="crm-text">
-                    Never worry about overpaying for your energy again.
-                </p>
-            </li>
-              <li class="crm-list-item">
-                <p  class="crm-text">
-                    We will only switch you to energy companies that we trust and
-                    will treat you right
+              <li class="crm-list-item customer-list-item">
+                <span
+                  class="customer-icon-background customer-icon-background-one"
+                  ><svg
+                    class="customer-icon"
+                    width="17"
+                    height="12"
+                  >
+                    <use
+                      href="./images/icons-blended.svg#customer-tick"
+                    ></use></svg
+                ></span>
+                <p class="crm-text customer-text">
+                  Never worry about overpaying for your energy again.
                 </p>
               </li>
-              <li class="crm-list-item">
-                <p class="crm-text">We track the markets daily and know where the savings are.</p>
+              <li class="crm-list-item customer-list-item">
+                <span
+                  class="customer-icon-background customer-icon-background-two"
+                  ><svg
+                    class="customer-icon"
+                    width="17"
+                    height="12"
+                  >
+                    <use
+                      href="./images/icons-blended.svg#customer-tick"
+                    ></use></svg
+                ></span>
+                <p class="crm-text customer-text">
+                  We will only switch you to energy companies that we trust and
+                  will treat you right
+                </p>
+              </li>
+              <li class="crm-list-item customer-list-item">
+                <span
+                  class="customer-icon-background customer-icon-background-three"
+                  ><svg
+                    class="customer-icon"
+                    width="17"
+                    height="12"
+                  >
+                    <use
+                      href="./images/icons-blended.svg#customer-tick"
+                    ></use></svg
+                ></span>
+                <p class="crm-text customer-text">
+                  We track the markets daily and know where the savings are.
+                </p>
               </li>
             </ul>
           </div>
@@ -334,47 +385,63 @@
 
       <!-- Collaborative -->
 
-      <section>
+      <!-- staf -->
+
+      <section class="staf">
         <div class="container">
-          <h2>Quick & Easy Process</h2>
-          <p class="crm-text crm-description">
+          <h2 class="staf-title">Quick & Easy Process</h2>
+          <p class="staf-paragraph">
             Do you require some help for your project: Conception workshop,
             prototyping, marketing strategy, landing page, Ux/UI?
           </p>
-          <ul>
-            <li>
+          <ul class="staf-list">
+            <li class="staf-list-item">
               <img
                 src="./images/avatar1.png"
                 alt="avatar1"
-                width="100"
+                width="98"
               />
-              <p>I can take care of your pitch</p>
+              <div class="staf-text-container">
+                <p class="staf-text">I can take care of your pitch</p>
+              </div>
             </li>
-            <li>
+            <li class="staf-list-item">
+              <div class="staf-text-container">
+                <p class="staf-text">I can prototype your app</p>
+              </div>
               <img
                 src="./images/avatar2.png"
                 alt="avatar2"
-                width="100"
+                width="98"
               />
-              <p>I can prototype your app</p>
             </li>
-            <li>
+            <li class="staf-list-item">
+              <div class="staf-text-container">
+                <p class="staf-text">I can take care of your pitch</p>
+              </div>
               <img
                 src="./images/avatar3.png"
                 alt="avatar3"
-                width="100"
+                width="98"
               />
-              <p>I can take care of your pitch</p>
             </li>
-            <li>
+            <li class="staf-list-item">
               <img
                 src="./images/avatar4.png"
                 alt="avatar4"
+                width="98"
               />
-              <p>I can help marketing strategy</p>
+              <div class="staf-text-container">
+                <p class="staf-text">I can help marketing strategy</p>
+              </div>
             </li>
-            <button type="button">Contact our expert</button>
           </ul>
+          <button
+            type="button"
+            class="staf-btn"
+          >
+            Contact our expert
+          </button>
         </div>
       </section>
 
