@@ -1,41 +1,6 @@
-.product .container {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.product-title {
-  width: 539px;
-}
-
-.product-list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 50px;
-}
-
-.product-icon-span {
-  width: 54px;
-  height: 54px;
-
-  margin-bottom: 26px;
-}
-
-.product-list-item {
-  width: 255px;
-  height: 204px;
-}
-
-.product-title-item {
-  margin-bottom: 16px;
-}
-
-/* -------------------------------------product------------------------------------*/
-
 /* ---------------------------------------CRM--------------------------------------*/
 /* CRM-common */
 .section-crm .container {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -45,17 +10,7 @@
   padding-bottom: 50px;
 }
 
-.crm-paraagraph {
-  font-weight: 600;
-  font-size: 16px;
-  color: #22343d;
-  margin-bottom: 8px;
-}
-
 .crm-title {
-  font-weight: 700;
-  font-size: 32px;
-  color: #22343d;
   margin-bottom: 25px;
 }
 
